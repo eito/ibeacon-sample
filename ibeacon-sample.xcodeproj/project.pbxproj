@@ -16,22 +16,7 @@
 		4B9840FB18DF901700308D57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9840F918DF901700308D57 /* Main.storyboard */; };
 		4B9840FE18DF901700308D57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9840FD18DF901700308D57 /* ViewController.m */; };
 		4B98410018DF901700308D57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9840FF18DF901700308D57 /* Images.xcassets */; };
-		4B98410718DF901700308D57 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B98410618DF901700308D57 /* XCTest.framework */; };
-		4B98410818DF901700308D57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9840E718DF901700308D57 /* Foundation.framework */; };
-		4B98410918DF901700308D57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9840EB18DF901700308D57 /* UIKit.framework */; };
-		4B98411118DF901700308D57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B98410F18DF901700308D57 /* InfoPlist.strings */; };
-		4B98411318DF901700308D57 /* ibeacon_sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B98411218DF901700308D57 /* ibeacon_sampleTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4B98410A18DF901700308D57 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B9840DC18DF901700308D57 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B9840E318DF901700308D57;
-			remoteInfo = "ibeacon-sample";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4B9840E418DF901700308D57 /* ibeacon-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ibeacon-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,11 +33,7 @@
 		4B9840FC18DF901700308D57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4B9840FD18DF901700308D57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4B9840FF18DF901700308D57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4B98410518DF901700308D57 /* ibeacon-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ibeacon-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B98410618DF901700308D57 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4B98410E18DF901700308D57 /* ibeacon-sampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ibeacon-sampleTests-Info.plist"; sourceTree = "<group>"; };
-		4B98411018DF901700308D57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4B98411218DF901700308D57 /* ibeacon_sampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ibeacon_sampleTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +47,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B98410218DF901700308D57 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B98410718DF901700308D57 /* XCTest.framework in Frameworks */,
-				4B98410918DF901700308D57 /* UIKit.framework in Frameworks */,
-				4B98410818DF901700308D57 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				4B9840ED18DF901700308D57 /* ibeacon-sample */,
-				4B98410C18DF901700308D57 /* ibeacon-sampleTests */,
 				4B9840E618DF901700308D57 /* Frameworks */,
 				4B9840E518DF901700308D57 /* Products */,
 			);
@@ -93,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				4B9840E418DF901700308D57 /* ibeacon-sample.app */,
-				4B98410518DF901700308D57 /* ibeacon-sampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,24 +103,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4B98410C18DF901700308D57 /* ibeacon-sampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				4B98411218DF901700308D57 /* ibeacon_sampleTests.m */,
-				4B98410D18DF901700308D57 /* Supporting Files */,
-			);
-			path = "ibeacon-sampleTests";
-			sourceTree = "<group>";
-		};
-		4B98410D18DF901700308D57 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4B98410E18DF901700308D57 /* ibeacon-sampleTests-Info.plist */,
-				4B98410F18DF901700308D57 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,24 +123,6 @@
 			productReference = 4B9840E418DF901700308D57 /* ibeacon-sample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4B98410418DF901700308D57 /* ibeacon-sampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B98411918DF901700308D57 /* Build configuration list for PBXNativeTarget "ibeacon-sampleTests" */;
-			buildPhases = (
-				4B98410118DF901700308D57 /* Sources */,
-				4B98410218DF901700308D57 /* Frameworks */,
-				4B98410318DF901700308D57 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B98410B18DF901700308D57 /* PBXTargetDependency */,
-			);
-			name = "ibeacon-sampleTests";
-			productName = "ibeacon-sampleTests";
-			productReference = 4B98410518DF901700308D57 /* ibeacon-sampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,8 +132,8 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Esri;
 				TargetAttributes = {
-					4B98410418DF901700308D57 = {
-						TestTargetID = 4B9840E318DF901700308D57;
+					4B9840E318DF901700308D57 = {
+						DevelopmentTeam = NJ4VVCSZ7F;
 					};
 				};
 			};
@@ -218,7 +151,6 @@
 			projectRoot = "";
 			targets = (
 				4B9840E318DF901700308D57 /* ibeacon-sample */,
-				4B98410418DF901700308D57 /* ibeacon-sampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,14 +163,6 @@
 				4B98410018DF901700308D57 /* Images.xcassets in Resources */,
 				4B9840F218DF901700308D57 /* InfoPlist.strings in Resources */,
 				4B9840FB18DF901700308D57 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B98410318DF901700308D57 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B98411118DF901700308D57 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,23 +179,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B98410118DF901700308D57 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B98411318DF901700308D57 /* ibeacon_sampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4B98410B18DF901700308D57 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4B9840E318DF901700308D57 /* ibeacon-sample */;
-			targetProxy = 4B98410A18DF901700308D57 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4B9840F018DF901700308D57 /* InfoPlist.strings */ = {
@@ -288,14 +196,6 @@
 				4B9840FA18DF901700308D57 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4B98410F18DF901700308D57 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B98411018DF901700308D57 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +236,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SYMROOT = /build;
 			};
 			name = Debug;
 		};
@@ -367,6 +268,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
+				SYMROOT = /build;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -376,10 +278,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ibeacon-sample/ibeacon-sample-Prefix.pch";
 				INFOPLIST_FILE = "ibeacon-sample/ibeacon-sample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,51 +294,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ibeacon-sample/ibeacon-sample-Prefix.pch";
 				INFOPLIST_FILE = "ibeacon-sample/ibeacon-sample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		4B98411A18DF901700308D57 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ibeacon-sample.app/ibeacon-sample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ibeacon-sample/ibeacon-sample-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ibeacon-sampleTests/ibeacon-sampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		4B98411B18DF901700308D57 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ibeacon-sample.app/ibeacon-sample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ibeacon-sample/ibeacon-sample-Prefix.pch";
-				INFOPLIST_FILE = "ibeacon-sampleTests/ibeacon-sampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -454,14 +322,6 @@
 			buildConfigurations = (
 				4B98411718DF901700308D57 /* Debug */,
 				4B98411818DF901700308D57 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		4B98411918DF901700308D57 /* Build configuration list for PBXNativeTarget "ibeacon-sampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B98411A18DF901700308D57 /* Debug */,
-				4B98411B18DF901700308D57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
